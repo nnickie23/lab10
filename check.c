@@ -44,5 +44,5 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  return ( retval == PAM_SUCCESS ? 0:1 );       /* indicate success */
+  return (retval == PAM_SUCCESS ? 0 : 1);       /* indicate success */
 }
